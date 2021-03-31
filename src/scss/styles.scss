@@ -9,4 +9,62 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+.nav-item {
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.jumbotron {
+  background: url(../img/pirate-ship.jpg) no-repeat center;
+  background-size: cover;
+  font-family: "Indie Flower", cursive;
+  color: white;
+  text-align: center;
+
+  .lead { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  .display-4 {
+    margin-top: 50px;
+    font-size: 45px;
+  }
+}
+
+.byline-name {
+  font-weight: bold;
+}
+
+.byline-source {
+  font-style: italic;
+}
+
+.story-headline {
+  font-family: 'Rock Salt', cursive;
+  font-size: 25px;
+}
+
+.story-date {
+  font-size: 18px;
+}
+
+.footer {
+  position: bottom;
+  width: 100;
+  height: 25px;
+  line-height: 25px;
+  background-color: darkgrey;
+  text-align: center;
+}
+
+/* fix this
+@media (max-width: 575.98px) {
+  .content {
+    background-color: red;
+  }
+}
+*/
+
 // Import partials here
